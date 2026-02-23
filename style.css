@@ -1,15 +1,14 @@
 .grid-container {
     display: flex;
-    flex-wrap: wrap; /* Allows items to wrap onto the next line */
-    width: 600px; /* Set a fixed width for the entire grid */
-    height: 600px; /* Set a fixed height to ensure squares */
+    flex-wrap: wrap; 
+    width: 600px; 
+    height: 600px; 
     border: 1px solid black;
 }
 
 .grid-item {
-    /* Each item's width and height should be 1/16th of the container */
     width: 6.25%; 
     height: 6.25%;
-    box-sizing: border-box; /* Ensures border/padding is included in the width/height calculation */
+    box-sizing: border-box; 
     border: 1px solid #0f0101;
 }
