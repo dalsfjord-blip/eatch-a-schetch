@@ -1,6 +1,6 @@
 const container = document.querySelector(".grid-container");
-const gridSize = 16;
-const totalCells = gridSize * gridSize;
+const GRID_SIZE = 16;
+const totalCells = GRID_SIZE * GRID_SIZE;
 
 function createGrid() {
     for (let i = 0; i < totalCells; i++) {

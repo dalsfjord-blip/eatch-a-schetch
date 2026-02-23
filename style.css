@@ -11,4 +11,10 @@
     height: 6.25%;
     box-sizing: border-box; 
     border: 1px solid #0f0101;
+    transition: background-color 0.8s ease;
+}
+
+.grid-item:hover {
+    background-color: #dbae34e7;
+    transition: background-color 0s;
 }
