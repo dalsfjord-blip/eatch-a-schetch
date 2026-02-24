@@ -14,8 +14,5 @@
     transition: background-color 0.8s ease;
 }
 
-.grid-item:hover {
-    background-color: #dbae34e7;
-    transition: background-color 0s;
-}
+
 
